@@ -4,7 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form animation with javascript.</title>
+    <script
+      src="https://kit.fontawesome.com/3872b0bdb3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <form action="#" class="form">
+        <!-- Username field -->
+        <div class="field__name">
+          <i class="far fa-user"></i>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+            required
+          />
+          <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <!-- Email field -->
+        <div class="field__email inactive">
+          <i class="fas fa-envelope"></i>
+          <input
+            type="email"
+            name="useremail"
+            id="useremail"
+            placeholder="Useremail"
+            required
+          />
+          <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <!-- password field -->
+        <div class="field__password inactive">
+          <i class="fas fa-key"></i>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <i class="fas fa-arrow-down"></i>
+        </div>
+
+        <div class="field__thanks inactive">
+          <i class="fas fa-heart"></i>
+          <p>Thanks for submit form</p>
+          <i class="fas fa-heart"></i>
+        </div>
+      </form>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>

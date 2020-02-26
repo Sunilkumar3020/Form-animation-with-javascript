@@ -1,38 +1,10 @@
-@keyframes shake {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  50% {
-    transform: translate(-50%, -50%) rotate(10deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-.field__name,
-.field__email,
-.field__password,
-.field__thanks {
-  font-size: 1.6rem;
-}
-
 .field__name,
 .field__email,
 .field__password,
 .field__thanks {
   position: absolute;
   transform: translate(-50%, -50%);
-  background-color: #fff;
+  background-color: $color-white;
   width: 40rem;
   height: 4rem;
   border-radius: 0.5rem;
@@ -71,18 +43,3 @@ div.active {
   border: none;
   outline: none;
 }
-
-body {
-  background-color: #57bd82;
-}
-
-.container {
-  width: 100%;
-  height: 90vh;
-  display: grid;
-  place-content: center;
-  position: relative;
-  transition: all 0.5s ease;
-}
-
-/*# sourceMappingURL=style.css.map */
