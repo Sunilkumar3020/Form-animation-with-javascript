@@ -19,11 +19,16 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .field__name,
 .field__email,
 .field__password,
 .field__thanks {
   font-size: 1.6rem;
+  font-family: sans-serif;
 }
 
 .field__name,
@@ -70,6 +75,16 @@ div.active {
   height: 100%;
   border: none;
   outline: none;
+}
+
+.error {
+  position: absolute;
+  top: 120%;
+  left: 2%;
+  font-size: 1.4rem;
+  color: #1d0301;
+  display: none;
+  transition: 0.2s ease;
 }
 
 body {

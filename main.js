@@ -28,6 +28,8 @@ function animatedForm() {
 
 function validateUser(user) {
   if (user.value.length < 6) {
+    let userError = document.querySelector(".error");
+    userError.style.display = "block";
     error("rgb(189,87,87)"); // light red color
   } else {
     error("rgb(87, 189, 130)"); // light green color

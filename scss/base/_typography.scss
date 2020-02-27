@@ -1,10 +1,13 @@
 html {
   font-size: 62.5%;
 }
-
+body {
+  font-family: sans-serif;
+}
 .field__name,
 .field__email,
 .field__password,
 .field__thanks {
   font-size: 1.6rem;
+  font-family: sans-serif;
 }

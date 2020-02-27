@@ -1,0 +1,22 @@
+{
+  "name": "form-animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunilkumar3020/Form-animation-with-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunilkumar3020/Form-animation-with-javascript/issues"
+  },
+  "homepage": "https://github.com/Sunilkumar3020/Form-animation-with-javascript#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1"
+  }
+}

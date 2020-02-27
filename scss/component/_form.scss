@@ -43,3 +43,13 @@ div.active {
   border: none;
   outline: none;
 }
+
+.error {
+  position: absolute;
+  top: 120%;
+  left: 2%;
+  font-size: 1.4rem;
+  color: $color-error;
+  display: none;
+  transition: 0.2s ease;
+}
